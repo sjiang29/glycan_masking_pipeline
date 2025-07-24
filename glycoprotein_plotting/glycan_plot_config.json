@@ -1,0 +1,12 @@
+{
+    "working_dir": ".",
+    "score_file": "Glyc_score.sc",
+    "top_n": 75,
+    "start_pos": 1,
+    "end_pos": 268,
+    "threshold": -180,
+    "wild_index": 200,
+    "plot_type": "box_grid",
+    "n_splits": 1,
+    "title": "Influenza Top Scores"
+}

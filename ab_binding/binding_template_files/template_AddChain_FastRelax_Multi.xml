@@ -1,0 +1,15 @@
+ <ROSETTASCRIPTS>
+	<MOVERS>
+		<AddChain name="Add_H" file_name="Rfn_1_H7-200_Head_ABC_ABC_B.pdb" new_chain="1"
+		scorefxn="REF2015" />
+		<AddChain name="Add_L" file_name="Rfn_1_H7-200_Head_ABC_ABC_C.pdb" new_chain="1"
+		scorefxn="REF2015" />
+		<FastRelax name="FR" disable_design="1" />
+	</MOVERS>
+	<PROTOCOLS>
+		<Add mover="Add_H" />
+		<Add mover="Add_L" />
+		<Add mover="FR" />
+	</PROTOCOLS>
+	<OUTPUT scorefxn="REF2015" />
+</ROSETTASCRIPTS>

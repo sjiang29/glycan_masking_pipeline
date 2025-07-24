@@ -1,0 +1,24 @@
+{
+    "score_type": "binding",
+    "column_name": "dG_separated",
+    "antibodies": [
+        "H7-200",
+        "m826",
+        "FluA-20",
+        "H7point5"
+    ],
+    "binding_positions": [
+        4,
+        5,
+        7,
+        8,
+        13,
+        16,
+        22,
+        34,
+        37,
+        40
+    ],
+    "wild_index": 200,
+    "working_dir": "."
+}

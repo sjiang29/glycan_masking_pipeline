@@ -1,0 +1,13 @@
+ <ROSETTASCRIPTS>
+	<MOVERS>
+		<SimpleGlycosylateMover name="glycosylate" strip_existing="1"
+		positions="3,200"
+		glycosylation="man5" idealize_glycosylation="0" />
+		<GlycanTreeModeler name="model" layer_size="2" window_size="1"
+		rounds="1" refine="false" />
+	</MOVERS>
+	<PROTOCOLS>
+		<Add mover="glycosylate" />
+	<Add mover="model"/>
+	</PROTOCOLS>
+</ROSETTASCRIPTS>

@@ -1,0 +1,10 @@
+pdb,antibody,antibody_heavy_chain_pdb,antibody_light_chain_pdb
+6UIG,H7-200,head_6uig_cut_ABC_B.pdb,head_6uig_cut_ABC_C.pdb
+5VAG,m826,head_5vag_cut_ABC_B.pdb,head_5vag_cut_ABC_C.pdb
+6OCB,FluA-20,head_6ocb_cut_ABC_B.pdb,head_6ocb_cut_ABC_C.pdb
+6MLM,H7point5,head_6mlm_cut_ABC_B.pdb,head_6mlm_cut_ABC_C.pdb
+5V2A,H7-167,head_5v2a_cut_ABC_B.pdb,head_5v2a_cut_ABC_C.pdb
+6II9,L3A-44,head_6ii9_cut_ABC_B.pdb,head_6ii9_cut_ABC_C.pdb
+6II4,L4A-14,head_6ii4_cut_ABC_B.pdb,head_6ii4_cut_ABC_C.pdb
+5XKU,HNIgGA6,head_5xku_cut_ABC_B.pdb,head_5xku_cut_ABC_C.pdb
+9BT5,H7-235,head_9bt5_cut_ABC_B.pdb,head_9bt5_cut_ABC_C.pdb

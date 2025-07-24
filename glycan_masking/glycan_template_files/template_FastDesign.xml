@@ -1,0 +1,18 @@
+<ROSETTASCRIPTS>
+        <TASKOPERATIONS>
+                <ReadResfile name="resfile" filename="s3.resfile" />
+        </TASKOPERATIONS>
+        <SCOREFXNS>
+                <ScoreFunction name="REF15" weights="ref2015" />
+        </SCOREFXNS>
+        <MOVERS>
+                <FastDesign name="design" disable_design="false" repeats="2"            task_operations="resfile" relaxscript="MonomerDesign2019" />
+                <FastRelax name="FR" scorefxn="REF15" disable_design="1"/>
+        </MOVERS>
+        <PROTOCOLS>
+                <Add mover_name="design"/>
+                <Add mover="FR" />
+        </PROTOCOLS>
+</ROSETTASCRIPTS>
+
+

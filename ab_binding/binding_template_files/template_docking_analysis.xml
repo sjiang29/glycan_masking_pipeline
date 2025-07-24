@@ -1,0 +1,9 @@
+ <ROSETTASCRIPTS>
+	<MOVERS>
+		<InterfaceAnalyzerMover name="iface_analyzer" scorefxn="REF2015" packstat="1"    pack_input="0" interface_sc="1" tracer="0" interface="A_BC" pack_separated="1" />
+	</MOVERS>
+	<PROTOCOLS>
+		<Add mover="iface_analyzer" />
+	</PROTOCOLS>
+	<OUTPUT scorefxn="REF2015" />
+</ROSETTASCRIPTS>

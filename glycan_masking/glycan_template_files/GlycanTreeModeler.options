@@ -1,0 +1,10 @@
+-ignore_unrecognized_res
+-ignore_zero_occupancy false
+-load_PDB_components false
+-pdb_comments
+-skip_connect_info
+-ex1
+-ex2
+-jd2:delete_old_poses
+-other_pose_to_scorefile
+-include_sugars
