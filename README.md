@@ -38,7 +38,7 @@ Plots Rosetta energy scores (REU) of glycosylated variants.
 - Supports filtering by score threshold
 - Highlight wild-type baseline
 
-📘 Detailed guide: [README_plotting.md](README_plotting.md)
+📘 Detailed guide: [glycoprotein_plotting_readme](https://github.com/sjiang29/glycan_masking_pipeline/blob/main/glycoprotein_plotting/README_glycan_plotting.md)
 
 ---
 
@@ -51,7 +51,7 @@ Performs antibody chain addition and binding energy calculations using Rosetta o
 - Outputs: antibody-bound complex PDBs + binding scores
 - Parallelized across positions and antibodies
 
-📘 Detailed guide: [README_binding.md](README_binding.md)
+📘 Detailed guide: [ab_binding_readme](https://github.com/sjiang29/glycan_masking_pipeline/blob/main/ab_binding/README_binding.md)
 
 ---
 
@@ -65,13 +65,13 @@ Plots antibody binding scores across antigen positions using violin plots.
 - Highlights wild-type (position 200) as baseline
 - Configurable columns (e.g., `dG_separated`, `total_score`)
 
-📘 Detailed guide: [README_ab_plotting.md](README_ab_plotting.md)
+📘 Detailed guide: [ab_binding_plotting_readme](https://github.com/sjiang29/glycan_masking_pipeline/blob/main/binding_plot/README_ab_plotting.md)
 
 ---
 
 ## 🗂️ Organizational Note
 
-Although the pipeline is conceptually organized into four stages (masking → glycan plotting → binding → binding plotting), **all Python scripts and config files are expected to be placed in a single flat directory** to ensure compatibility with relative file paths in the code.
+Although the pipeline is conceptually organized into four stages (masking → glycan plotting → binding → binding plotting),and filed and instructions needed for each stage are put into a seperate folder for easy organization **all Python scripts and config files are expected to be placed in a single flat directory when running the scripts** to ensure compatibility with relative file paths in the code.
 
 You can still organize input and output data (e.g., `template_files/`, `antigens/`, `binding_results/`) in subdirectories.
 
