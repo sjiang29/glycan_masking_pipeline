@@ -24,7 +24,7 @@ Simulates glycan attachment at N-linked sites using Rosetta `FastDesign` and `Gl
 - Outputs: glycosylated PDB structures + score files
 - Parallelized across positions
 
-📘 Detailed guide: [README.md](README.md)
+📘 Detailed guide: [glycan_masking_readme](https://github.com/sjiang29/glycan_masking_pipeline/blob/main/glycan_masking/README_local_parallel_glycan_run.md)
 
 ---
 
