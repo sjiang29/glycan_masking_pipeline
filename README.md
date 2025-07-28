@@ -24,7 +24,7 @@ Simulates glycan attachment at N-linked sites using Rosetta `FastDesign` and `Gl
 - Outputs: glycosylated PDB structures + score files
 - Parallelized across positions
 
-📘 Detailed guide: [glycan_masking_readme](https://github.com/sjiang29/glycan_masking_pipeline/1_glycan_masking/README_local_parallel_glycan_run.md)
+📘 Detailed guide: [glycan_masking_readme](https://github.com/sjiang29/glycan_masking_pipeline/blob/main1_glycan_masking/README_local_parallel_glycan_run.md)
 
 ---
 
@@ -38,7 +38,7 @@ Plots Rosetta energy scores (REU) of glycosylated variants.
 - Supports filtering by score threshold
 - Highlight wild-type baseline
 
-📘 Detailed guide: [glycoprotein_plotting_readme](https://github.com/sjiang29/glycan_masking_pipeline/2_glycoprotein_plotting/README_glycan_plotting.md)
+📘 Detailed guide: [glycoprotein_plotting_readme](https://github.com/sjiang29/glycan_masking_pipeline/blob/main/2_glycoprotein_plotting/README_glycan_plotting.md)
 
 ---
 
@@ -51,7 +51,7 @@ Performs antibody chain addition and binding energy calculations using Rosetta o
 - Outputs: antibody-bound complex PDBs + binding scores
 - Parallelized across positions and antibodies
 
-📘 Detailed guide: [ab_binding_readme](https://github.com/sjiang29/glycan_masking_pipeline/3_ab_binding/README_binding.md)
+📘 Detailed guide: [ab_binding_readme](https://github.com/sjiang29/glycan_masking_pipeline/blob/main/3_ab_binding/README_binding.md)
 
 ---
 
@@ -65,7 +65,7 @@ Plots antibody binding scores across antigen positions using violin plots.
 - Highlights wild-type (position 200) as baseline
 - Configurable columns (e.g., `dG_separated`, `total_score`)
 
-📘 Detailed guide: [ab_binding_plotting_readme](https://github.com/sjiang29/glycan_masking_pipeline/4_ab_binding_plot/README_ab_plotting.md)
+📘 Detailed guide: [ab_binding_plotting_readme](https://github.com/sjiang29/glycan_masking_pipeline/blob/main/4_ab_binding_plot/README_ab_plotting.md)
 
 ---
 
